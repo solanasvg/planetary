@@ -1,0 +1,21 @@
+body {
+  background-color: #000;    
+  margin: 0;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:100vw;
+  height:100vh;
+}
+
+canvas {
+  padding:10px;
+}
+
+@media only screen and (min-width: 1000px) {
+  canvas {
+    padding:20px;
+  }
+}
